@@ -29,4 +29,5 @@ const Offers = () => {
 };
 
 export default Offers;
-// Este componente Offers muestra una lista de productos en oferta utilizando el componente ProductItem.
+
+// Componente para ruta Ofertas la cual muestra los productos con rebajas especiales.

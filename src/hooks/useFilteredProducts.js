@@ -18,4 +18,5 @@ const useFilteredProducts = (products, searchTerm) => {
 };
 
 export default useFilteredProducts;
-// Este hook useFilteredProducts filtra una lista de productos según un término de búsqueda.
+
+// Custom hook personalizado para filtrar en lista de productos según un término de búsqueda.

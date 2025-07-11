@@ -131,3 +131,5 @@ const products = [
 ];
 
 export default products;
+
+// Archivo que simula base de datos de los productos y sus características.

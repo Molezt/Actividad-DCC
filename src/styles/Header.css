@@ -27,7 +27,7 @@
 
 .header__link:hover {
   text-decoration: underline;
-  color: #66b2ff; /* un azul claro para resaltar */
+  color: #66b2ff;
 }
 
 .header__branding {

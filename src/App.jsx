@@ -30,5 +30,4 @@ function App() {
 
 export default App;
 
-// Aplicación React que muestra un encabezado con enlaces a Inicio, Carrito y Devoluciones.
-// Utiliza React Router para la navegación.
+// Aplicación React que utiliza React Router para navegación a diferentes páginas.

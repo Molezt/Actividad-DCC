@@ -7,7 +7,7 @@ const SearchBar = ({ value, onChange }) => {
       <input
         className="search-bar__input"
         type="text"
-        placeholder="Buscar vinilo por título o artista..."
+        placeholder="Busca tu disco por título, artista o género..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
       />
@@ -16,4 +16,5 @@ const SearchBar = ({ value, onChange }) => {
 };
 
 export default SearchBar;
-// Este componente SearchBar permite a los usuarios buscar vinilos.
+
+// Componente de barra de busqueda que permite a los usuarios buscar vinilos disponibles.

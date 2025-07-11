@@ -18,4 +18,4 @@ const ProductList = ({ filtered = [] }) => {
 
 export default ProductList;
 
-// Este componente ProductList renderiza una lista de productos utilizando el componente ProductItem.
+// Componente que renderiza la lista de productos haciendo uso de componente ProductItem.

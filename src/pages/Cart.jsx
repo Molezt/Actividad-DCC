@@ -68,4 +68,5 @@ const Cart = () => {
 
 export default Cart;
 
-// Este componente Cart muestra los productos añadidos al carrito y permite eliminarlos o vaciar el carrito.
+// Componente para ruta Carrito la cual muestra los productos añadidos al carrito.
+// También permite eliminarlos o vaciar el carrito completamente.

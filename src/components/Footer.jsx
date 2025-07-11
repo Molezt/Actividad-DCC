@@ -12,4 +12,5 @@ const Footer = () => {
 };
 
 export default Footer;
-// Este código define un componente de pie de página para una tienda de vinilos en React.
+
+// Definición de componente para el pie de página

@@ -46,4 +46,4 @@ const Header = () => {
 
 export default Header;
 
-// Este código define un componente de encabezado para una tienda de vinilos en React.
+// Este componente de encabezado muestra el logo, nombre y enlaces a las rutas principales.

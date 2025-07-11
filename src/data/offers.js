@@ -29,4 +29,4 @@ const offers = [
 
 export default offers;
 
-// Este archivo contiene una lista de ofertas especiales de productos, cada una con su título, artista, precios, stock, imagen y descripción.
+// Archivo mock que simula lista de ofertas especiales de productos.

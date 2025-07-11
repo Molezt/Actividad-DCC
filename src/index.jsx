@@ -11,4 +11,5 @@ root.render(
     </CartProvider>
   </React.StrictMode>
 );
-// Este código inicializa una aplicación React, envolviendo el componente App en un proveedor de contexto para manejar el carrito de compras. Utiliza ReactDOM para renderizar la aplicación en el elemento con id 'root' del HTML. El modo estricto de React ayuda a identificar problemas potenciales en la aplicación durante el desarrollo.
+// Inicialización de aplicación React, componente App envuelto en proveedor de contexto para control de compras.
+// Utiliza ReactDOM para renderizar la aplicación en el elemento con id 'root' del HTML.

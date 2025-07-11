@@ -60,4 +60,4 @@ const ProductItem = ({ product }) => {
 
 export default ProductItem;
 
-// Este componente ProductItem muestra un producto individual con su imagen, título, artista y precio.
+// Este componente muestra el producto con su portada, título, artista, género y precio.

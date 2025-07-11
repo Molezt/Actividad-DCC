@@ -29,4 +29,5 @@ const Home = () => {
 };
 
 export default Home;
-// Este componente Home muestra una lista de vinilos disponibles y permite buscar entre ellos.
+
+// Componente para ruta Inicio el cual muestra la lista de vinilos disponibles y permite buscar entre ellos.

@@ -71,4 +71,4 @@ const ProductDetail = () => {
 
 export default ProductDetail;
 
-// Este componente ProductDetail muestra los detalles de un producto específico.
+// Componente para mostrar los detalles de un producto específico y observar su descripción.

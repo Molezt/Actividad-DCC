@@ -30,3 +30,5 @@ const Returns = () => {
 };
 
 export default Returns;
+
+// Componente para ruta Devoluciones con información sobre cómo solicitar devoluciones de productos adquiridos.
