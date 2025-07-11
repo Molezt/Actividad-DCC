@@ -9,7 +9,8 @@ const useFilteredProducts = (products, searchTerm) => {
     return products.filter(
       (product) =>
         product.title.toLowerCase().includes(lower) ||
-        product.artist.toLowerCase().includes(lower)
+        product.artist.toLowerCase().includes(lower) ||
+        (product.genre && product.genre.toLowerCase().includes(lower))
     );
   }, [products, searchTerm]);
 

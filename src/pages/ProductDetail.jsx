@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import products from "../data/products";
+import offers from "../data/offers";
 import { useCart } from "../context/CartContext";
 import "../styles/ProductDetail.css";
 
 const ProductDetail = () => {
   const { id } = useParams();
-  const product = products.find((p) => p.id === parseInt(id));
+  const allProducts = [...products, ...offers];
+  const product = allProducts.find((p) => p.id === parseInt(id));
   const { cart, addItem } = useCart();
 
   useEffect(() => {
@@ -27,6 +29,7 @@ const ProductDetail = () => {
     <section className="product-detail">
       <h2 className="product-detail__title">{product.title}</h2>
       <h4 className="product-detail__artist">{product.artist}</h4>
+      <p className="product-detail__genre">Género: {product.genre}</p>
 
       <img
         className="product-detail__image"

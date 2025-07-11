@@ -20,6 +20,12 @@
   margin-bottom: 1rem;
 }
 
+.product-detail__genre {
+  font-size: 1rem;
+  color: #828282;
+  margin-bottom: 0.5rem;
+}
+
 .product-detail__description {
   margin-top: 1rem;
 }
@@ -43,7 +49,7 @@
 
 .product-detail__stock {
   font-size: 0.9rem;
-  color: #aaa;
+  color: #757575;
   margin-top: 0.5rem;
 }
 

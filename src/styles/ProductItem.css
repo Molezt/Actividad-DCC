@@ -27,8 +27,13 @@
   font-style: italic;
 }
 
+.product-item__genre {
+  color: gray;
+  font-style: italic;
+}
+
 .product-item__price {
-  color: green;
+  color: rgb(128, 0, 0);
   font-weight: bold;
 }
 

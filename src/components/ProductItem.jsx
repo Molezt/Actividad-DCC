@@ -22,6 +22,7 @@ const ProductItem = ({ product }) => {
       />
       <h3 className="product-item__title">{product.title}</h3>
       <p className="product-item__artist">{product.artist}</p>
+      <p className="product-item__genre">Género: {product.genre}</p>
 
       <p className="product-item__stock">
         Stock disponible: {product.stock - quantityInCart}
