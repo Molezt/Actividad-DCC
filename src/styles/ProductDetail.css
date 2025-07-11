@@ -1,0 +1,63 @@
+.product-detail {
+  padding: 2rem;
+}
+
+.product-detail__image {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-detail__title {
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.product-detail__artist {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.product-detail__description {
+  margin-top: 1rem;
+}
+
+.product-detail__price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.product-detail__price--original {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 0.5rem;
+}
+
+.product-detail__price--discount {
+  color: red;
+  font-weight: bold;
+}
+
+.product-detail__stock {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+.product-detail__button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.product-detail__button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}

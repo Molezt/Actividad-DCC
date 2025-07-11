@@ -1,0 +1,17 @@
+.footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer__text {
+  font-size: 0.9rem;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.page-background {
+  background-image: url("../images/vinyl.jpg");
+  background-repeat: repeat;
+  background-size: 120px;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}

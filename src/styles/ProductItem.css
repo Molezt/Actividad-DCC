@@ -1,0 +1,86 @@
+.product-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-item__image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.product-item__title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product-item__artist {
+  color: gray;
+  font-style: italic;
+}
+
+.product-item__price {
+  color: green;
+  font-weight: bold;
+}
+
+.product-item__price--original {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 0.5rem;
+}
+
+.product-item__price--discount {
+  color: red;
+  font-weight: bold;
+}
+
+.product-item__link {
+  display: block;
+  margin-top: 0.5rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.product-item__link:hover {
+  text-decoration: underline;
+}
+
+.product-item__actions {
+  margin-top: 0.5rem;
+}
+
+.product-item__stock {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.product-item__button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.product-item__ribbon {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  width: 140px;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 4px 0;
+  z-index: 10;
+}
